@@ -11,7 +11,6 @@ const app = express();
 const db = monk(process.env.MONGO_URI || 'localhost/meower');
 const mews = db.get('mews');
 const filter = new Filter();
-console.log(process.env.MONGO_URI);
 //a ordem em q se coloca o middleware importa, pois é utilizado de forma subsequente.
 //assim, colocar o rateLimit antes do post para q apenas limite os post req e nao os get req
 app.use(cors());
