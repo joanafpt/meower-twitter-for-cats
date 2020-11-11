@@ -1,0 +1,49 @@
+.page-title{
+    text-align: center;
+    font-size: 5em;
+}
+
+.mew-form, .loading{
+    width: 70%;
+    margin: 0 auto; 
+    padding: 2%;
+}
+.loading{
+    text-align: center;
+}
+.meowslist{
+    width: 70%;
+    margin: 0 auto;
+}
+hr{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0.1vh;
+    border-color: hotpink;
+}
+
+#submit{
+   background-color: hotpink;
+   border: 1px solid hotpink;
+}
+header{
+    font-family: 'Lobster Two', cursive;
+    font-size: 0.8em;
+}
+
+.output{
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid transparent;
+    background-color: transparent;  
+    color:red;     
+}
+
+
+.u-pull-left {
+    float: left; 
+}
